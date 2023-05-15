@@ -1,0 +1,38 @@
+.header {
+    margin-top: 60px;
+  }
+  
+  .headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Josefin", serif;
+    color: #444;
+  }
+  
+  .headerTitleSm {
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+    color: black !important;
+  }
+  
+  .headerTitleLg {
+    position: absolute;
+    top: 50%;
+    font-size: 100px;
+    color: black !important;
+  }
+  
+  .headerImg{
+      width: 100%;
+      height: 664px;
+      margin-top: -60px;
+      object-fit: cover;
+      filter: sepia(21%) saturate(2);
+      transition: .8s;
+  }
+
+  .headerImg:hover{
+    opacity: 0.4;
+  }
