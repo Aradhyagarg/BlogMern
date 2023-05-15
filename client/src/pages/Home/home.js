@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from '../../components/header/header';
 import Posts from '../../components/posts/posts';
-import Sidebar from '../../components/sidebar/sidebar';
 import "./home.css";
 import axios from "axios";
 import { useLocation } from "react-router";
