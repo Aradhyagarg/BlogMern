@@ -14,7 +14,7 @@ export default function Navbar() {
     <div className='nav'>
         <div className='navLeft'>
           <h1 className="navlogo">
-          <img src="./Snip.png" height={60} width={300} />
+          <img src="./Snip.png" height={60} width={300} alt="Logo"/>
           </h1>
         </div>
         <div className='navCenter'>
